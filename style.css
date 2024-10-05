@@ -21,8 +21,9 @@ h6 {
   text-transform: uppercase;
 }
 
-.py-100 {
-  padding: 100px 0px;
+.my-100 {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .py-50{
@@ -173,7 +174,6 @@ h6 {
 }
 
 .type-text {
-  color: var(--yellow-color);
   font-size: 30px;
   font-weight: bold;
   color: rgb(255, 255, 255);
@@ -282,7 +282,7 @@ ul.about-info li span {
 }
 
 .resume-card {
-  height: 470px;
+  height: 100%;
 }
 
 .card {
@@ -464,4 +464,45 @@ button.tablink {
 .icon-box a:hover {
   text-decoration: none;
   color: #fff;
+}
+
+footer{
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 50px;
+  display:flex;
+  align-items: center;
+}
+
+footer p{
+  color: #fff;
+  margin: 0px;
+}
+
+footer p span{
+  font-weight: 600;
+color: var(--yellow-color);
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 768px){
+
+  .my-100{
+    margin: 50px 0px;
+  }
+
+  .dual-heading h3{
+    font-size: 36px;
+  }
+    .dual-heading {
+    margin-top: 50px;
+    margin-bottom: -20px;
+}
+.dual-heading h2.big{
+  font-size: 12vw;
+}
+.feature-box{
+  margin-bottom: 10px;
+}
 }
