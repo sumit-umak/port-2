@@ -476,16 +476,25 @@ footer{
 footer p{
   color: #fff;
   margin: 0px;
+  line-height: 25px;
 }
 
 footer p span{
   font-weight: 600;
-color: var(--yellow-color);
+  color: var(--yellow-color);
 }
 
 .img-about{
   display: flex;
 }
+
+.question-heading{
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+}
+
+
 
 
 /* Responsive */
@@ -512,6 +521,9 @@ color: var(--yellow-color);
 .about-info{
 
   padding-left: 0;
+  margin-top: 40px;
+}
+.form-section a{
   margin-top: 40px;
 }
 }
