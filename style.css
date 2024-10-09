@@ -493,6 +493,12 @@ footer p span{
   font-weight: 500;
   color: #fff;
 }
+
+.form-section{
+display:flex;
+  justify-content: center;
+  align-items: center;
+}
 .form-section a{
   margin-left: 20px;
 }
