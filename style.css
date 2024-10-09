@@ -483,6 +483,10 @@ footer p span{
 color: var(--yellow-color);
 }
 
+.img-about{
+  display: flex;
+}
+
 
 /* Responsive */
 
@@ -504,5 +508,10 @@ color: var(--yellow-color);
 }
 .feature-box{
   margin-bottom: 10px;
+}
+.about-info{
+
+  padding-left: 0;
+  margin-top: 40px;
 }
 }
