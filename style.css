@@ -403,6 +403,18 @@ button.tablink {
   transition: all 7s ease-in-out 0s;
   background-image: url(./images/project/asgeo.jpg);
 }
+.our_box_11 {
+  transition: all 7s ease-in-out 0s;
+  background-image: url(./images/project/dwn-bio-sci.webp);
+}
+.our_box_12 {
+  transition: all 7s ease-in-out 0s;
+  background-image: url(./images/project/leadz-bee.webp);
+}
+.our_box_13 {
+  transition: all 7s ease-in-out 0s;
+  background-image: url(./images/project/kevin_condon.webp);
+}
 
 .project_box.our_box_01:hover,
 .project_box.our_box_02:hover,
@@ -413,7 +425,10 @@ button.tablink {
 .project_box.our_box_07:hover,
 .project_box.our_box_08:hover,
 .project_box.our_box_09:hover,
-.project_box.our_box_10:hover {
+.project_box.our_box_10:hover,
+.project_box.our_box_11:hover,
+.project_box.our_box_12:hover,
+.project_box.our_box_13:hover{
   background-position: center bottom;
 }
 
